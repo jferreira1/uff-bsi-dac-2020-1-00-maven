@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="form-body">
+           <div class="cabecalho">Formulário do HelloWorld</div>
+           <form action="alomundo" method="post">
+                <br>Idioma: 
+                <div class="radio-container">
+                    <input type="radio" name="lang" value="pt" checked class="form-radio"> Português
+                    <input type="radio" name="lang" value="en" class="form-radio"> Inglês
+                    <input type="radio" name="lang" value="fr" class="form-radio"> Francês
+                    <div class="form-break"></div>
+                    <input type="radio" name="lang" value="de" class="form-radio"> Alemão
+                     <input type="radio" name="lang" value="es" class="form-radio"> Espanhol
+                     <input type="radio" name="lang" value="zh" class="form-radio"> Chinês
+                 </div>
+                 <br>
+                  <input type="checkbox" name="showData" value="showData" class="form-check"> Mostrar a data atual<br><br>
+                Nome: <input type="text" name="nome"/><br><br>
+                <input type="submit" value="Cumprimentar" class="form-submit"/>
+            </form>
+       </div>
+
+    </body>
+</html>

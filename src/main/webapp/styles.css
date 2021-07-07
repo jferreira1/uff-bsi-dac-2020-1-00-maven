@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2021, 2:40:57 PM
+    Author     : Jean
+*/
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 18px;
+    background-size: 100% 200% !important; 
+    background: linear-gradient(45deg, #eceff1 10%, #A2C7E5 90%);
+}
+
+#form-body {
+    margin:auto;
+    margin-top: 10%;
+    max-width: 420px;
+    background-color: #fff;
+    padding: 30px;
+    border: 5px solid;
+    border-color: #fff;
+}
+
+.cabecalho {
+    font-size: 20px;
+    text-align: center;
+}
+
+.radio-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+form {
+    margin: 0 auto;
+}
+
+.form-radio {
+    
+}
+
+.form-submit {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 16px;
+    background-color: #fff;
+    display:block;
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 5px -5px 10px 0px #9A9B9E;
+}
+
+.form-break {
+    flex-basis: 100%;
+}
+
+.index-container {
+    margin: auto;
+    margin-top: 20%;
+    max-width: 600px;
+}
+
+.alomundo-container {
+    margin: auto;
+    margin-top: 20%;
+    max-width: 600px;
+}
